@@ -14,7 +14,7 @@ public class Runner {
 	}
 
 	public static void main(String[] args) {
-		String newPass = "n!k@sn1Kos";
+		String newPass = "n!k@sn1skh";
 		String oldPass = "Anjusi@1";
 		Runner r = new Runner();
 		System.out.println(r.changePassword(newPass, oldPass));
