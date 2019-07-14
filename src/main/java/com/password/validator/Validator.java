@@ -12,9 +12,9 @@ public class Validator implements IValidator{
 	 * (?=.*d)         : Check For At Least One Numeric Value i.e. 0-9.
 	 * (?=.*[@#$!&*])  : Check For At Least One Special Character out of @#$!&*.
 	 * ((?=.*[A-Z])    : Check For At Least One Capital Letter.
-	 * {6,}            : Limits length to Minimum of 6.
+	 * {18,}            : Limits length to Minimum of 6.
 	 */
-	static String pattern1 = "((?=.*[a-z])(?=.*\\d)(?=.*[A-Z])(?=.*[@#$!&*]).{6,40})";
+	static String pattern1 = "((?=.*[a-z])(?=.*\\d)(?=.*[A-Z])(?=.*[@#$!&*]).{18,})";
 	
 	/*
 	 * Pattern to check for Consecutive Characters Consecutive Occurrence shouldn't
@@ -41,7 +41,7 @@ public class Validator implements IValidator{
 	/*
 	 * Stack to 
 	 */
-	public static String oldPassword = "Anjusi@1";
+	public static String oldPassword = "Anjusingh@!12345678";
 	
 	public boolean validationStage1(final String newPass) {
 		Pattern p = Pattern.compile(pattern1);

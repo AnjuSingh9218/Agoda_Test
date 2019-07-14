@@ -15,7 +15,7 @@ public class ValidatorTest {
 
 	@DataProvider
 	public Object[][] ValidPasswordProvider() {
-		return new Object[][] { { new String[] { "n!k@sn1Kos", "J@vaC0deG##ks", } } };
+		return new Object[][] { { new String[] { "NewPassword@$5674390", "Anjusingh@!12345678"} } };
 	}
 
 	@DataProvider
